@@ -47,6 +47,7 @@ Or, if you're running locally, it's http://localhost:8080/runtests.html
 - No CSS preprocessors. CSS here is very simple.
 - No TypeScript. I used `tsc --checkJs` to check for issues and fixed any. 
 - No complex state management. Just deep merge new state with existing.
+- No socket.io. The server is a hugely simple websocket server. Client reconnects with exponential backoff.
 
 # Development Philosophy
 
